@@ -1,0 +1,7 @@
+# ignore all
+*
+# include config files
+!.gitignore
+!.zshrc
+!.tmux.conf
+!.vimrc
