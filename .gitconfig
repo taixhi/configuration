@@ -3,3 +3,7 @@
 	name = Taichi Kato
 [core]
 	editor = vim
+[github]
+	user = taixhi
+[ghi]
+	token = !security find-internet-password -a taixhi -s github.com -l 'ghi token' -w
