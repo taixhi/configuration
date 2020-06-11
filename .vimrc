@@ -37,9 +37,6 @@ endif
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
-" Display line numbers
-set number
-
 " yee
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
@@ -66,6 +63,7 @@ set autoindent
 
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug '/usr/local/opt/fzf'
 call plug#end()
 
 " Go
@@ -89,3 +87,7 @@ let g:go_auto_sameids = 1
 
 " Enable folding with the spacebar
 nnoremap <space> za
+
+" turn hybrid line numbers on
+:set number relativenumber
+:set nu rnu
