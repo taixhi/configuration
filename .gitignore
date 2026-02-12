@@ -5,8 +5,4 @@
 !.bashrc
 !.zshrc
 !.tmux.conf
-!.gcalclirc
-!.zshbackup
-!.gitconfig
-!Brewfile
-!.config/ranger/rifle.conf
+!.vimrc
