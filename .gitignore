@@ -2,6 +2,7 @@
 *
 # include config files
 !.gitignore
+!.bashrc
 !.zshrc
 !.tmux.conf
 !.gcalclirc
